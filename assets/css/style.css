@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Yuji+Syuku&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #3e1515;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: rgba(163, 143, 138, 0);
+}
+
+
+h1, h2, h3, ul, li {
+    font-family: 'Yuji Syuku', serif;
+}
