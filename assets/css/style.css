@@ -16,3 +16,28 @@ body {
 h1, h2, h3, ul, li {
     font-family: 'Yuji Syuku', serif;
 }
+
+h1 {
+    text-transform: uppercase;
+    font-size: 240%;
+}
+
+#nav {
+    width: 370px;
+    right: 0px;
+    top: 3px;
+    position: absolute;
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
+    margin-left: 20px;
+    margin-right: 0px;
+}
