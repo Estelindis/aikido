@@ -64,7 +64,6 @@ li {
 }
 
 .main {
-    height: 300px;
     font-size: 24px;
 }
 
@@ -81,7 +80,7 @@ li {
     color: #eed7d1;
 }
 
-#kanji-box{
+#kanji-box {
     background-color: rgba(23, 9, 8, 0.6);
     width: 140px;
     height: 390px;
@@ -90,7 +89,7 @@ li {
     left: 10px;
 }
 
-#kanji-text{
+#kanji-text {
     font-family: 'Yuji Syuku', serif;
     color: #eed7d1;
     background-color: rgba(62, 21, 21, 0);
@@ -99,7 +98,40 @@ li {
     text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flexbox > * {
+    flex: 1 100%;
+}
+
+@media all and (min-width: 800px) {
+    .main {
+        flex: 3;
+    }
+    .main {
+        order: 2;
+    }
+    .sidebar1 {
+        order: 1;
+    }
+    .sidebar2 {
+        order: 3;
+    }
+    .social-media {
+        order: 4;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .side {
+        flex: 1;
+    }
+}
+
+@media all and (max-width: 700px) {
     #nav {
         left: 10px;
         position: relative;
