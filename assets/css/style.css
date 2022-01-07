@@ -63,3 +63,8 @@ li {
 .sidebar1, .sidebar1 > h2, .sidebar2, .sidebar2 > h2 {
     background-color: #eed7d1;
 }
+
+.social-media, .social-media > h2 {
+    background-color: #3f3130;
+    color: #eed7d1;
+}
