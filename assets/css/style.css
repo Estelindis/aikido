@@ -68,3 +68,21 @@ li {
     background-color: #3f3130;
     color: #eed7d1;
 }
+
+#kanji-box{
+    background-color: rgba(23, 9, 8, 0.6);
+    width: 140px;
+    height: 390px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#kanji-text{
+    font-family: 'Yuji Syuku', serif;
+    color: #eed7d1;
+    background-color: rgba(62, 21, 21, 0);
+    font-size: 700%;
+    line-height: 1.1;
+    text-align: center;
+}
