@@ -22,6 +22,10 @@ h1 {
     font-size: 240%;
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav {
     width: 370px;
     right: 0px;
