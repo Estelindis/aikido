@@ -47,11 +47,19 @@ li {
 }
 
 .header {
-    height:600px;
+    height: 600px;
     width: 100%;
     text-align: left;
     background: url('../images/hero-image.webp') no-repeat center center;
     top: 0;
     left: 0;
-    position:relative;
+    position: relative;
+}
+
+.main, .main > p {
+    background-color: #eed7d1;
+}
+
+.sidebar1, .sidebar1 > h2, .sidebar2, .sidebar2 > h2 {
+    background-color: #eed7d1;
 }
