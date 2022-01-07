@@ -70,16 +70,16 @@ li {
 }
 
 .main, .main > p {
-    background-color: #eed7d1;
+    background-color: #ecd8d1;
 }
 
 .sidebar1, .sidebar1 > h2, .sidebar2, .sidebar2 > h2 {
-    background-color: #eed7d1;
+    background-color: #ecd8d1;
 }
 
 .social-media, .social-media > h2 {
     background-color: #3f3130;
-    color: #eed7d1;
+    color: #ecd8d1;
 }
 
 #kanji-box {
@@ -93,7 +93,7 @@ li {
 
 #kanji-text {
     font-family: 'Yuji Syuku', serif;
-    color: #eed7d1;
+    color: #ecd8d1;
     background-color: rgba(62, 21, 21, 0);
     font-size: 700%;
     line-height: 1.1;
