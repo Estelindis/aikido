@@ -109,6 +109,15 @@ li {
     flex: 1 100%;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 0 10px;
+}
+
 @media all and (min-width: 1200px) {
     .main {
         flex: 3;
