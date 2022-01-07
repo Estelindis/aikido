@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: justify;
+}
+
 .centred {
     text-align: center;
 }
@@ -57,6 +61,11 @@ li {
     top: 0;
     left: 0;
     position: relative;
+}
+
+.main {
+    height: 300px;
+    font-size: 24px;
 }
 
 .main, .main > p {
