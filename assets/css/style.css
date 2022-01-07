@@ -98,3 +98,21 @@ li {
     line-height: 1.1;
     text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+    #nav {
+        left: 10px;
+        position: relative;
+    }   
+    #nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        font-size: 24px;
+        font-weight: bold;
+    }   
+    li {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}
