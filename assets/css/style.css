@@ -142,6 +142,21 @@ td {
     padding: 0 10px;
 }
 
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* responsiveness */
+
 @media all and (min-width: 1200px) {
     .main {
         flex: 3;
