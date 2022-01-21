@@ -74,7 +74,7 @@ li {
 }
 
 .header-dojo {
-    height: 690px;
+    height: 687px;
     width: 100%;
     text-align: left;
     background: url('../images/dojo-header.png') no-repeat center center;
@@ -217,6 +217,11 @@ td {
     li {
         margin-left: 0px;
         margin-right: 20px;
+    }
+
+    .color-swap {
+        color: #ecd8d1;
+        background-color: #47352e;
     }
 }
 
