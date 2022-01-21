@@ -242,7 +242,31 @@ label {
     color: #47352e;
 }
 
-/* responsiveness */
+/* Tooltip */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #47352e;
+    color: #ecd8d1;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -170px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/* Responsiveness */
 
 @media all and (min-width: 1200px) {
     .main {
