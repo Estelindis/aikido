@@ -73,16 +73,6 @@ li {
     background-color: #ecd8d1;
 }
 
-.header-dojo {
-    height: 687px;
-    width: 100%;
-    text-align: left;
-    background: url('../images/dojo-header.png') no-repeat center center;
-    top: 0;
-    left: 0;
-    position: relative;
-}
-
 .index-heading {
     padding-top: 20px;
 }
@@ -168,6 +158,88 @@ td {
 
 #pics > img {
     width: 100%;
+}
+
+/* FAQ */
+
+.header-dojo {
+    height: 687px;
+    width: 100%;
+    text-align: left;
+    background: url('../images/dojo-header.png') no-repeat center center;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url('../images/keikogi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #ecd8d1;
+    background-color: rgba(44, 36, 32, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 5%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #ecd8d1; 
+    margin-bottom: 20px; 
+}
+
+label {
+    color: #ecd8d1; 
+}
+
+.text-input {
+    background: transparent;
+    color: #ecd8d1; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ecd8d1; 
+    border-radius: 2px;
+}
+
+.comment-input {
+    background: transparent;
+    color: #ecd8d1; 
+    width: 100%;
+    height: 75px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ecd8d1; 
+    border-radius: 2px;
+}
+
+.text-input:hover,
+.comment-input:hover {
+    border-color: #47352e;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #47352e;
+    color: #ecd8d1;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #ecd8d1;
+    color: #47352e;
 }
 
 /* responsiveness */
