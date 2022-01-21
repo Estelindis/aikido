@@ -73,6 +73,15 @@ li {
     background-color: #ecd8d1;
 }
 
+.header-dojo {
+    height: 690px;
+    width: 100%;
+    text-align: left;
+    background: url('../images/dojo-header.png') no-repeat center center;
+    top: 0;
+    left: 0;
+    position: relative;
+}
 
 .index-heading {
     padding-top: 20px;
