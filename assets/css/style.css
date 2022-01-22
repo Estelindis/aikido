@@ -167,24 +167,34 @@ td {
     font-size: 24px;
     font-weight: bold;
     transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #c7afa8; 
-  }
-  
-  .panel {
-    padding: 0 18px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #c7afa8;
+}
+
+.panel {
+    padding: 0;
     display: none;
     background-color: #ecd8d1;
     overflow: hidden;
-  }
+}
 
-  .hall-image {
+.panel>p {
+    padding: 0 20px;
+}
+
+.hall-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 566px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Gallery */
@@ -323,12 +333,14 @@ label {
     .social-media {
         order: 4;
     }
+
 }
 
 @media all and (min-width: 600px) {
     .side {
         flex: 1;
     }
+
 }
 
 @media all and (max-width: 700px) {
@@ -353,6 +365,10 @@ label {
     .color-swap {
         color: #ecd8d1;
         background-color: #47352e;
+    }
+
+    .hall-image {
+        width: 100%;
     }
 }
 
