@@ -16,7 +16,7 @@ h1,
 h2,
 h3,
 ul,
-li {
+#nav li {
     font-family: 'Yuji Syuku', serif;
 }
 
@@ -54,7 +54,7 @@ p {
     font-weight: bold;
 }
 
-li {
+#nav li {
     margin-left: 20px;
     margin-right: 0px;
 }
@@ -100,11 +100,18 @@ aside>p {
     background-color: #ecd8d1;
 }
 
-.social-media,
-.social-media>h2 {
-    background-color: #3f3130;
-    color: #ecd8d1;
+/* Flexbox */
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
 }
+
+.flexbox>* {
+    flex: 1 100%;
+}
+
+/* Kanji box on Index hero image */
 
 #kanji-box {
     background-color: rgba(23, 9, 8, 0.6);
@@ -124,14 +131,7 @@ aside>p {
     text-align: center;
 }
 
-.flexbox {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.flexbox>* {
-    flex: 1 100%;
-}
+/* Training Times */
 
 table {
     margin-left: auto;
@@ -140,6 +140,35 @@ table {
 
 td {
     padding: 0 10px;
+}
+
+/* Footer */
+
+footer {
+    height: auto;
+}
+
+.quote-social,
+.quote-social>h2,
+.social-icons i {
+    background-color: #3f3130;
+    color: #ecd8d1;
+}
+
+.social-icons > li {
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.social-icons i {
+    font-size: 240%;
+    margin: 1%;
+    padding: 0 5% 20px;
+}
+
+.quote {
+    margin: 20px;
 }
 
 /* FAQ */
@@ -330,7 +359,7 @@ label {
         order: 3;
     }
 
-    .social-media {
+    .quote-social {
         order: 4;
     }
 
@@ -357,7 +386,7 @@ label {
         font-weight: bold;
     }
 
-    li {
+    #nav li {
         margin-left: 0px;
         margin-right: 20px;
     }
