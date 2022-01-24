@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +15,13 @@
     <title>MU Aikido</title>
 </head>
 
+<!-- Body -->
+
 <body>
     <div class="flexbox">
+
+        <!-- Club logo, upper left -->
+
         <header class="header-dojo">
             <h2 class="logo">
                 <a href="index.html">Maynooth University</a>
@@ -22,6 +29,9 @@
             <h1 class="logo">
                 <a href="index.html">Aikido Club</a>
             </h1>
+
+            <!-- Nav bar, upper right on wide screens, left below logo on small screens -->
+
             <nav>
                 <div id="nav">
                     <ul>
@@ -41,63 +51,82 @@
                 </div>
             </nav>
         </header>
+
+        <!-- FAQ in accordion style -->
+
         <article class="main">
             <h2 class="centred index-heading">Frequently Asked Questions</h2>
             <br>
             <button class="accordion">Can I really start with no previous martial arts experience? </button>
             <div class="panel">
-              <p>Yes!  The vast majority of those who join our club have never learned a martial art before.  We will help you to learn safely and comfortably.  You will be shown each step of each technique clearly, as often as needed. </p>
-              <br>
+                <p>Yes! The vast majority of those who join our club have never learned a martial art before. We will
+                    help you to learn safely and comfortably. You will be shown each step of each technique clearly, as
+                    often as needed. </p>
+                <br>
             </div>
-            
+
             <button class="accordion">Do I need to wear one of those white suits? </button>
             <div class="panel">
-              <p>It's not necessary to wear a white suit ("keikogi") to train with us.  If you do wish to purchase a suit, and you are a student, the club can order it for you and will usually pay part of the cost. </p>
-              <br>
+                <p>It's not necessary to wear a white suit ("keikogi") to train with us. If you do wish to purchase a
+                    suit, and you are a student, the club can order it for you and will usually pay part of the cost.
+                </p>
+                <br>
             </div>
 
             <button class="accordion">Can I join if I'm not a student, alumnus, or staff member at MU or SPCM? </button>
             <div class="panel">
-              <p>Most members of MU Aikido Club are students or alumni of Maynooth University.  MU staff (and students, staff, and alumni of St. Patrick's College, Maynooth) can also join.  If you don't meet any of these criteria, but you are over 18, you may train with us as a guest.  We ask that guests join the Irish Aikido Federation for insurance purposes.</p>
-              <br>
+                <p>Most members of MU Aikido Club are students or alumni of Maynooth University. MU staff (and students,
+                    staff, and alumni of St. Patrick's College, Maynooth) can also join. If you don't meet any of these
+                    criteria, but you are over 18, you may train with us as a guest. We ask that guests join the Irish
+                    Aikido Federation for insurance purposes.</p>
+                <br>
             </div>
 
             <button class="accordion">Can I see a video of some aikido? </button>
             <div class="panel">
                 <video autoplay muted controls>
-                    <source src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Ueshiba_Mitsuteru_%28Nippon_Budokan%2C_2017%29.webm" type="video/webm">
+                    <source
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Ueshiba_Mitsuteru_%28Nippon_Budokan%2C_2017%29.webm"
+                        type="video/webm">
                     Your browser does not support the video tag.
-                  </video>
+                </video>
             </div>
-            
+
             <button class="accordion">Where is the MU Sports Centre? </button>
             <div class="panel">
-                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Maynooth%20University%20Sports%20Centre+(MU%20Sports%20Centre)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">swimming watch</a></iframe>
+                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Maynooth%20University%20Sports%20Centre+(MU%20Sports%20Centre)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/sport-gps/">swimming watch</a></iframe>
             </div>
 
             <button class="accordion">Where in the Sports Centre is the PE Hall? </button>
             <div class="panel">
-                <img src="assets/images/pe-hall.png" class="hall-image" alt="Location of the PE Hall within the MU Sports Centre">
+                <img src="assets/images/pe-hall.png" class="hall-image"
+                    alt="Location of the PE Hall within the MU Sports Centre">
             </div>
-            
-            <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
-            }
-            </script>
 
+            <!-- Accordion script -->
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                        } else {
+                            panel.style.display = "block";
+                        }
+                    });
+                }
+            </script>
         </article>
+
+        <!-- Sidebar with training times and location -->
+
         <aside class="side sidebar1">
             <h2 class="centred index-heading">Training Times</h2>
             <br>
@@ -118,6 +147,9 @@
                 chairs). Outside term time, additional training is arranged.</p>
             <br>
         </aside>
+
+        <!-- Sidebar with other info (currently COVID; could be upcoming course info when courses happen again) -->
+
         <aside class="side sidebar2">
             <h2 class="centred index-heading">COVID-19</h2>
             <br>
@@ -129,17 +161,26 @@
             <br>
             <br>
         </aside>
+
+        <!-- Footer with external links plus quote from aikido founder -->
+
         <footer class="quote-social">
-            <h2 class="centred quote">“To injure an opponent is to injure yourself. To control aggression without inflicting injury is the Art of Peace.” — Morihei Ueshiba</h2>
+            <h2 class="centred quote">“To injure an opponent is to injure yourself. To control aggression without
+                inflicting injury is the Art of Peace.” — Morihei Ueshiba</h2>
             <ul class="centred social-icons">
                 <li>
-                    <a href="https://www.facebook.com/MaynoothAikido" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/MaynoothAikido" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/MaynoothUni" target="_blank" rel="noopener" aria-label="Visit Maynooth University on Twitter (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/MaynoothUni" target="_blank" rel="noopener"
+                        aria-label="Visit Maynooth University on Twitter (opens in a new tab)"><i
+                            class="fab fa-twitter-square"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/c/Aikido-internationalOrg" target="_blank" rel="noopener" aria-label="Visit the International Aikido Federation on YouTube (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.youtube.com/c/Aikido-internationalOrg" target="_blank" rel="noopener"
+                        aria-label="Visit the International Aikido Federation on YouTube (opens in a new tab)"><i
+                            class="fab fa-youtube-square"></i></a>
                 </li>
             </ul>
         </footer>
