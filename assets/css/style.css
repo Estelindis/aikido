@@ -233,7 +233,8 @@ video {
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-    background-color: #ecd8d1;
+    background-color: #3f3130;
+    color: #ecd8d1;
 }
 
 #pics>img {
