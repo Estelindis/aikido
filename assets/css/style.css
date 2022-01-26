@@ -408,7 +408,7 @@ label {
     }
 }
 
-/* Additional styling for smallest screens, to fit more content and hide scrollbars (which phones don't need due to touchscreen scrolling) */
+/* Additional styling for smallest screens, to fit more content */
 
 @media all and (max-width: 400px) {
     #nav ul {
@@ -438,9 +438,6 @@ label {
         height: 530px;
     }
 
-    body {
-        overflow: hidden;
-      }
 }
 
 /* Gallery displays as one column on smaller screens */
