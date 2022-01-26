@@ -177,7 +177,7 @@ footer {
     height: 687px;
     width: 100%;
     text-align: left;
-    background: url('../images/dojo-header.png') no-repeat center center;
+    background: url('../images/dojo-header.webp') no-repeat center center;
     top: 0;
     left: 0;
     position: relative;
@@ -251,7 +251,7 @@ video {
 
 .form-section {
     clear: left;
-    background: url('../images/keikogi.jpg');
+    background: url('../images/keikogi.webp');
     background-size: cover;
     background-position: center;
     height: 1000px;
