@@ -254,7 +254,7 @@ video {
     background: url('../images/keikogi.jpg');
     background-size: cover;
     background-position: center;
-    height: 1200px;
+    height: 1000px;
 }
 
 .signup-form {
@@ -408,7 +408,7 @@ label {
     }
 }
 
-/* Additional styling for smallest screens, to fit more content and get rid of horizontal scrollbar */
+/* Additional styling for smallest screens, to fit more content with less wasted space */
 
 @media all and (max-width: 400px) {
     #nav ul {
@@ -440,6 +440,15 @@ label {
 
     #nav {
         width: 280px;
+    }
+
+    .signup-form {
+        left: 10px;
+        top: 30px;
+    }
+
+    .form-section {
+        height: 750px;
     }
 
 }
