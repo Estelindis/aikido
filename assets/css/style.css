@@ -408,7 +408,7 @@ label {
     }
 }
 
-/* Additional styling for smallest screens, to fit more content */
+/* Additional styling for smallest screens, to fit more content and get rid of horizontal scrollbar */
 
 @media all and (max-width: 400px) {
     #nav ul {
@@ -436,6 +436,10 @@ label {
 
     .header-hero {
         height: 530px;
+    }
+
+    #nav {
+        width: 280px;
     }
 
 }
