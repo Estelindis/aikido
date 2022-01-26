@@ -155,7 +155,7 @@ footer {
     color: #ecd8d1;
 }
 
-.social-icons > li {
+.social-icons>li {
     display: inline;
     margin-left: 0px;
     margin-right: 0px;
@@ -343,6 +343,8 @@ label {
 
 /* Responsiveness */
 
+/* Default flexbox styling, for large screens */
+
 @media all and (min-width: 1200px) {
     .main {
         flex: 3;
@@ -366,12 +368,16 @@ label {
 
 }
 
+/* Flexbox styling for smaller screens */
+
 @media all and (min-width: 600px) {
     .side {
         flex: 1;
     }
 
 }
+
+/* For phone and tablet widths, navbar shifts to the left */
 
 @media all and (max-width: 700px) {
     #nav {
@@ -401,6 +407,40 @@ label {
         width: 100%;
     }
 }
+
+/* Additional styling for smallest screens, to fit more content */
+
+@media all and (max-width: 400px) {
+    #nav ul {
+        font-size: 19px;
+        padding: 0px;
+    }
+
+    .social-icons i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 0 5% 5px;
+    }
+
+    .main,
+    .side,
+    .accordion,
+    p {
+        font-size: 19px;
+    }
+
+    .quote {
+        margin: 10px;
+        font-size: 19px;
+    }
+
+    .header-hero {
+        height: 530px;
+    }
+
+}
+
+/* Gallery displays as one column on smaller screens */
 
 @media screen and (max-width: 800px) {
     #pics {
