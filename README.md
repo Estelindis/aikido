@@ -108,10 +108,10 @@ The website is divided into four pages: index, FAQ, gallery, and the join page.
 - The first questions address the urgent concerns of new users, especially worries that may lead users to quickly disengage from the site.  At first, users may be intimidated by the thought of trying a martial art, or wearing specific clothing that may seem strange.  As the answers to these questions hopefully assuage users' concerns, questions turn to more tangible issues, like who qualifies to join the club and how to get to the training venue.
 - The accordion style of the FAQ follows the method laid out at [W3 Schools](https://www.w3schools.com/howto/howto_js_accordion.asp).  While the style is adapted to suit the look of the MU Aikido Club site, the JavaScript for the accordion script comes directly from W3 Schools.
 - The accordion hides FAQ answers by default.  This conceals the video from the user on loading the page.  By clicking on the video FAQ entry, the user signals an interest in watching a video of aikido.  Consequently, the video autoplays on being revealed by clicking the video FAQ entry.  To preserve a good user experience and avoid unpleasant surprises, this video is automatically muted.
-- The aikido video is provided by Guillaume Erard, shared on [Wikimedia](https://commons.wikimedia.org/w/index.php?title=File%3AUeshiba_Mitsuteru_(Nippon_Budokan%2C_2017).webm) via Creative Commons and converted to mp4 to improve browser compatibility.  This specific video is chosen both as an excellent example of aikido and because it takes place at the headquarters of the worldwide aikido organization of which the MU Aikido Club is a small part. 
-- The Google Maps iFrame and its FAQ entry were added with a view to helping people who have never or rarely visited Maynooth University to find the Sports Centre. The imagined user of this feature may not have begun studying at Maynooth University, or perhaps is in the first week at MU, but is already taking the initiative to investigate clubs and societies.  For such an engaged user, it is strongly desired to remove obstacles to further engagement, such as confusion about the location of the Sports Centre.
+- The aikido video is provided by Guillaume Erard, shared on [Wikimedia](https://commons.wikimedia.org/w/index.php?title=File%3AUeshiba_Mitsuteru_(Nippon_Budokan%2C_2017).webm) via Creative Commons and converted to mp4 to improve browser compatibility.  This specific video is chosen both as an excellent example of aikido and because it depicts a prominent figure in the worldwide aikido organization of which the MU Aikido Club is a small part. 
+- The Google Maps iFrame and its FAQ entry were added to help users who have never or rarely visited Maynooth University to find the Sports Centre. The imagined user of this feature may not have begun studying at Maynooth University, or perhaps is in the first week at MU, but is already taking the initiative to investigate clubs and societies.  For such an engaged user, it is strongly desired to remove obstacles to further engagement, such as confusion about the location of the Sports Centre.
 - Code for the Google Maps iFrame was initially generated at [Maps.ie](https://www.maps.ie/create-google-map/).  As this generated bugs on the W3 Validator, the styling of the iFrame was then moved to the css file.
-- The image of the Sports Centre floor map and its FAQ entry were made to help new students and staff at Maynooth University who are unfamiliar with the internal layout of facitilies like the Sports Centre.
+- The image of the Sports Centre floor map and its FAQ entry were made to help new students and staff at Maynooth University who are unfamiliar with the internal layout of facilities like the Sports Centre.
 
 ## Gallery
 ![The Gallery on multiple devices.](/assets/image-readme/responsive-gallery.jpg)
@@ -190,7 +190,7 @@ Running all site pages through Lighthouse in DevTools, checking both mobile and 
 
 The steps to deploy via GitHub pages:
 
-1. Log into Github account.
+1. Log into GitHub account.
 2. Navigate to the [Repository](https://github.com/Estelindis/aikido).
 3. Click the 'Settings' option at the top of the repository.
 4. Click the 'Pages' option on the left-hand menu, located near the bottom.
@@ -227,7 +227,7 @@ To make a local clone of the project follow these steps:
 8. CD into 'aikido'.
 9. Enter 'git clone SSH_ADDRESS'
 10. GitBash will clone the repository into this directory.
-11. Enter 'code .' and this will open VS CODE and happy coding.
+11. Enter 'code .' which will open VS CODE.
 
 # Used technologies and credits
 ## Languages
@@ -250,11 +250,11 @@ To make a local clone of the project follow these steps:
 - Image editing, including site prototyping, was performed using GIMP 2.10.24.
 - The icons used in the footer come from [FontAwesome](https://fontawesome.com/).
 - Fonts used throughout the website are imported from [Google Fonts](https://fonts.google.com/).
-- Colours were chosen and checked for contrast on [Contast Grid](https://contrast-grid.eightshapes.com/).
+- Colours were chosen and checked for contrast on [Contrast Grid](https://contrast-grid.eightshapes.com/).
 - A palette for easy viewing in this readme was generated at [Coolors](https://coolors.co/ffffff-ecd8d1-c7aea7-3f3130-2b1212).
 
 ## Other technologies
 - [GitHub](https://github.com/) provided a repository for the website.
 
 ## Credits
-- [Code Intitute Slack](https://slack.com/) Fellow members of the CI on Slack provided an invaluable database of information and community of support.  I am particularly grateful to the msletb-nov-2021 cohort, our facilitator Kasia, and my mentor Darío.
+- [Code Institute Slack](https://slack.com/) Fellow members of the CI on Slack provided an invaluable database of information and community of support.  I am particularly grateful to the msletb-nov-2021 cohort, our facilitator Kasia, and my mentor Darío.
