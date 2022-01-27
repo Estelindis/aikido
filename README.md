@@ -75,7 +75,7 @@ The website is divided into four pages: index, FAQ, gallery, and the join page.
 - The nav bar allows the user to navigate between all pages of the website.
 - The nav bar uses the same font as the logo and headings: Yuji Syuku.  This font is also used for the aikido kanji displayed on the index hero image.  This provides a unified look.  At the same time, the choice of a serif font for logo, nav bar, and headings clearly distinguishes them from the rest of the content (which uses a sans-serif font).   
 - The font colour used in navigation contrasts with the background.  On the FAQ page, when a small screen would cause the nav bar to float above a different background colour, the font colour is reversed to maintain contrast.
-- Additionally, the index's main article links to the Join page under the heading "How Do I Join?" and to the Gallery page under "What kind of events can I expect?"
+- Additionally, the index's main article links to the Join page under the heading "How Do I Join?" and the FAQ main article links to the Gallery page under "What kind of events can I expect?"
 
 ## Index Main Article and Hero Image
 - The index main article is divided with the following headings: "Learn Aikido at Maynooth"; "Why Aikido?"; and "How Do I Join?"  These were chosen as the most important pieces of information to communicate to a new user of the site.
@@ -240,6 +240,7 @@ To make a local clone of the project follow these steps:
 - The flexbox layout of the Index and FAQ pages follows a tutorial from [CSS Coder on YouTube](https://www.youtube.com/watch?v=S0a7PEOi0do).
 - The accordion style of the FAQ follows a tutorial from [W3 Schools](https://www.w3schools.com/howto/howto_js_accordion.asp).
 - The tooltip styling of the Join page also follows a tutorial at [W3 Schools](https://www.w3schools.com/css/css_tooltip.asp).
+- The [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) browser extension was used to quickly and clearly identify which styling elements were causing overflow, allowing me to amend the styling.
 
 ## Media 
 - Background images are taken from [Pexels](https://www.pexels.com/) and [Shutterstock](https://www.shutterstock.com/).
