@@ -49,7 +49,7 @@ The MU Aikido Club website is designed to inform users about aikido broadly and 
 ## User Goals
 - Navigate easily through a clear, readable website with attractive colours and images.
 - Learn what aikido is.
-- Learn who can join the MU Aikido Club.
+- Learn who can join the MU Aikido Club and where else one might practise aikido if not eligible to join MUAC.
 - Find training times and locations.
 - See what aikido practice is like and what other club activities take place. 
 - Join the club.
@@ -63,7 +63,7 @@ The MU Aikido Club website is designed to inform users about aikido broadly and 
 - Convey aspects of the history and culture of aikido without overwhelming the user.
 
 # Website structure
-
+The website is divided into four pages: index, FAQ, gallery, and the join page.
 
 ## Navigation 
 - The club logo navigates back to the index. 
@@ -99,14 +99,17 @@ The MU Aikido Club website is designed to inform users about aikido broadly and 
 - The colour scheme of the footer is inverted compared with the rest of the website, to provide a pleasing element of contrast.
 
 ## FAQ 
+![The FAQ on multiple devices.](/assets/image-readme/responsive-faq.jpg)
 - The FAQ answers common questions that users may have about the MU Aikido Club.  It is intended mainly for new users, but may be of some help to returning users.
 - The first questions are meant to address urgent concerns of new users, especially worries that may lead users to disengage from the site.  At first, users may be intimidated by the thought of trying a martial art, or wearing specific clothing that may seem strange.  As the answers to these questions hopefully assuage users' concerns, questions turn to more tangible issues, like who qualifies to join the club and how to get to the training venue.
 - The accordion style of the FAQ follows the method laid out at [W3 Schools](https://www.w3schools.com/howto/howto_js_accordion.asp).  While the style is adapted to suit the look of the MU Aikido Club site, the accordion script itself comes directly from this source.
 
 ## Gallery
+![The Gallery on multiple devices.](/assets/image-readme/responsive-gallery.jpg)
 - Text
 
 ## Join
+![The Join page on multiple devices.](/assets/image-readme/responsive-join.jpg)
 - Text
 
 # Wireframes
@@ -122,7 +125,7 @@ The index page was prototyped in GIMP using the chosen colours, fonts, and hero 
 # Website Surface
 ## Colours
 ![Initial mock-up of the mobile site.](/assets/image-readme/aikido-palette.jpg)
-- A colour scheme of creams and browns was chosen for the website.  These tones evoke a traditional look of parchment, while maintaining a level of contrast suitable for a modern, fresh website.  White is not used in the styling but appears as a pop of contrast in the hero image of the index.  
+- A colour scheme of creams and browns was chosen for the website.  These tones evoke a traditional look of parchment and ink, while maintaining a level of contrast suitable for a modern, fresh website.  White is not used in the styling but appears as a pop of contrast in the hero image of the index.  
 
 ## Typography
 Two fonts are used throughout the website.  These fonts are unified by their clear legibility, with differences in the serif font that draw attention to headers and other important elements.
@@ -133,7 +136,7 @@ Two fonts are used throughout the website.  These fonts are unified by their cle
 - The source for the icons used in the footer is [Font Awesome](https://fontawesome.com/).
 - The source for the hero image in the index page is [Pexels](https://www.pexels.com/photo/red-and-gray-pagoda-temple-3408354/).  Tomáš Malík's photo of Mt. Fuji was chosen to represent the Japanese origin of aikido.  It further implies that practising a martial art is like climbing a mountain.  Using GIMP, I edited the photo to replace the sky with a solid fill of the main background colour of the website, for a cleaner look.  Editing Pexels photos is permitted by their terms of use.   
 - The source for the main FAQ image is [Shutterstock](https://www.shutterstock.com/image-vector/aikido-dojo-asian-style-flat-vector-1196646862).  Natamura's vector image evokes a typical Japanese dojo as well as the main aikido dojo in Dublin on Macken Street.  I edited the image to replace the tatami with the main background colour of the website, as well as somewhat extending the picture to the sides for very wide screens.  I licensed this image via free trial, which allows usage rights to be retained after the trial ends, even if the trial is cancelled immediately.  [Editing licensed content is permitted by Shutterstock.](https://support.shutterstock.com/s/article/Can-I-edit-the-content-I-license?language=en_US)
-- The main Join image was also licensed from [Shutterstock](https://www.shutterstock.com/image-photo/white-judogi-folded-tied-belt-1688098678).  The photo of a white suit and belt by maRRitch was chosen to encourage prospective members to put on a suit and join the club (many members choose to wear the suits, even if they are not required).  The white belt communicates that all club members train together with a "beginners' spirit," even those with the right to wear a black belt.
+- The main Join image was also licensed from [Shutterstock](https://www.shutterstock.com/image-photo/white-judogi-folded-tied-belt-1688098678).  The photo of a white suit and belt by maRRitch was chosen to encourage prospective members to put on a suit and join the club (since many members choose to wear the suits, even if they are not required).  The white belt communicates that all club members train together with a "beginners' spirit," including those with the right to wear a black belt.
 - The image of the Sports Centre floor map was created from scratch by me in GIMP.
 
 # Testing
@@ -144,16 +147,19 @@ No errors were returned when passing through the official W3C validator.
 No errors were returned when passing through the official Jigsaw validator. 
 
 ## [Lighthouse accessibility (Chrome DevTools)](https://developers.google.com/web/tools/lighthouse/)
-I confirmed that the colors and fonts chosen are easily readable and accessible by running it through Lighthouse in DevTools (both mobile and desktop versions).
+Running all site pages through Lighthouse in DevTools, checking both mobile and desktop versions, I obtained the following results.
+![Index Lighthouse report.](/assets/image-readme/lh-index.jpg)
+![FAQ Lighthouse report.](/assets/image-readme/lh-faq.jpg)
+![Gallery Lighthouse report.](/assets/image-readme/lh-gallery.jpg)
+![Join page Lighthouse report.](/assets/image-readme/lh-join.jpg)
 
 ## Manual testing
-- I tested that the website works in different browsers: Chrome, Safari, Firefox.
-- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar and manually testing the page on different devices (laptops, tablet, iPhone and three different Android smartphones).
+- I tested that the site works in different browsers: Edge, Chrome, Firefox.  Additionally, I shared the site with users of Safari who reported it as working, some of whom provided screencaps and videos of their experiences.  This feedback was helpful in identifying bugs.
+- Via Chrome DevTools, I tested the responsiveness of the site across a range of screen sizes, from phone to tablet to desktop.  Additionally, I shared the site with people using a range of different devices, who reported the site as responsive (in their view).
 
 # Bugs and fixes
 ## Solved bugs
-- (Smaller media query to make scrollbar vanish on iPhone).
-- (Browser query to give alternate hero image and video for Safari users).
+- Initially, the video in the FAQ page was only provided in webm format.  However, in a video capture from a Safari user, this embedded video seemed broken.  I converted the webm to mp4 and uploaded a copy to the repository, providing an additional video source in a second format to address this compatibility issue.  
 
 # Deployment 
 ## GitHub pages
@@ -165,23 +171,23 @@ The steps to deploy via GitHub pages:
 3. Click the 'Settings' option at the top of the repository.
 4. Click the 'Pages' option on the left-hand menu, located near the bottom.
 5. Within the 'Source' tab Select the drop-down titled 'None'.
-6. Select the branch named 'main' (in some cases it can be named 'Master').
+6. Select the branch named 'main' (it is sometimes named 'Master').
 7. Click 'Save'.
 8. You will be prompted with a URL to your deployed site.
-9. Site deployed.
+9. The site is now deployed.
 
-When the above steps have been completed, it can sometimes take a lmoment for the deployed URL to update. It is enough to refresh the page until the site is fully deployed.
+Once these steps have been followed, it can take a few minutes for the deployed site to appear at its URL. Once deployment has been completed, refreshing the page will show the full site.
 
 ## Forking The GitHub Repository
 
-To use this code and make changes without affecting the original code you can do what is called 'Forking the repository'. By forking this repository you are given a copy of the code at that moment in time that you can use freely. To fork this repository you need to follow the following few steps:
+By forking the GitHub repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.  Follow these steps:
 
 1. Log into your GitHub account.
-2. Navigate to the [Repository](https://github.com/Estelindis/aikido), you are wanting to fork.
-3. In the upper-right of the repository, click the 'Fork' button.
-4. A copy of the Repository will now be available within your repositories.
+2. Navigate to the [Repository](https://github.com/Estelindis/aikido) that you want to fork.
+3. In the upper right of the repository, click the 'Fork' button.
+4. A copy of the repository will now be available within your repositories.
 
-You will now have a copy of the code available to clone and work on without affecting the original code.
+This copy of the code can be edited without affecting the original code.
 
 ## Cloning the Project.
 
@@ -211,11 +217,13 @@ To make a local clone of the project follow these steps:
 ## Media 
 - Background images were taken from [Pexels](https://www.pexels.com/) and [Shutterstock](https://www.shutterstock.com/).
 - Gallery images were provided by the MU Aikido Club, and can also be seen on the club Facebook page.
+- [Bulk Resize Images](https://bulkresizephotos.com/en) was used to resize all gallery photos to a width of 1000 pixels, as several were originally much wider than this, leading to an initially lower Lighthouse report score.  
 - Images compression was done via [Tiny PNG](https://tinypng.com/).
 - Image editing, including site prototyping, was performed using GIMP 2.10.24.
 - The icons used in the footer come from [FontAwesome](https://fontawesome.com/).
 - Fonts used throughout the website were imported from [Google Fonts](https://fonts.google.com/).
 - Colours were chosen and checked for contrast on [Contast Grid](https://contrast-grid.eightshapes.com/).
+- A palette for easy viewing in this readme was generated at [Coolors](https://coolors.co/ffffff-ecd8d1-c7aea7-3f3130-2b1212).
 
 ## Other technologies
 - [GitHub](https://github.com/) provided a repository for the website.
