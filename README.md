@@ -4,6 +4,7 @@
 ### [Click here to view the site.](https://estelindis.github.io/aikido/)
 ### [Click here to view the repository.](https://github.com/Estelindis/aikido)
 
+![Index look on multiple devices.](/assets/image-readme/responsive-index.jpg)
 
 # Table of Contents:
 1. [About the project](#about-the-project)
@@ -43,7 +44,7 @@
 
 
 # About the project
-The MU Aikido Club website is designed to inform users about aikido broadly and the MU Aikido Club specifically.  Ideally, even a user who was not interested in aikido before visiting the site might become interested via browsing it. 
+The MU Aikido Club website is designed to inform users about aikido broadly and the MU Aikido Club specifically.  Ideally, a user who was not interested in aikido before visiting the site might become interested via browsing it. 
 
 ## User Goals
 - Navigate easily through a clear, readable website with attractive colours and images.
@@ -62,18 +63,18 @@ The MU Aikido Club website is designed to inform users about aikido broadly and 
 - Convey aspects of the history and culture of aikido without overwhelming the user.
 
 # Website structure
-![Website look on multiple devices.](/assets/image-readme/responsive-index.jpg)
+
 
 ## Navigation 
 - The club logo navigates back to the index. 
 - The nav bar allows the user to navigate between all pages of the website.
 - The nav bar uses the same font as the logo and headings: Yuji Syuku.  This font is also used for the aikido kanji displayed on the index hero image.  This provides a unified look.  At the same time, the choice of a serif font for  logo, nav bar, and headings clearly distinguishes them from the rest of the content (which uses a sans serif font).   
-- Font colour used in navigation contrasts with the background.  On the FAQ page, when a small screen would cause the nav bar to float above a different background colour, the font colour is reversed to maintain contrast.
-- Additionally, the index's main article links to the Join page under the heading "How Do I Join?"
+- The font colour used in navigation contrasts with the background.  On the FAQ page, when a small screen would cause the nav bar to float above a different background colour, the font colour is reversed to maintain contrast.
+- Additionally, the index's main article links to the Join page under the heading "How Do I Join?" and to the Gallery page under "What kind of events can I expect?"
 
 ## Header
 - The club logo is clear and simple: text without any icons or images.   
-- Excluding the Gallery, each page has a single main image directly below the logo.  Each image is chosen to complement the logo rather than to distract from it.
+- Excluding the Gallery, each page has a single main image directly below the logo.  Each image is chosen to complement the logo rather than distracting from it.
 
 ## Index Main Article
 - The index main article is divided with the following headings: "Learn Aikido at Maynooth"; "Why Aikido?"; and "How Do I Join?"  These were chosen as the most important pieces of information to communicate to a new user of the site.
@@ -109,15 +110,19 @@ The MU Aikido Club website is designed to inform users about aikido broadly and 
 - Text
 
 # Wireframes
+The index page was prototyped in GIMP using the chosen colours, fonts, and hero image.  These visual elements were decided as the first step of the project.  Once they were chosen, determining a layout became easier.  Using multiple layers with transparency, elements were moved around in GIMP and changed with ease.
 ## Desktop
-- Initial desktop concept.
+![Initial mock-up of the desktop site.](/assets/image-readme/wireframe-desktop.jpg)
+- The overall look of the desktop concept was largely maintained in the final site.  Later, heading text was given the bold format to make it more readable compared to this initial concept.
 
 ## Mobile
-- Initial mobile concept.
+![Initial mock-up of the mobile site.](/assets/image-readme/wireframe-mobile.jpg)
+- Taking into account the primarily vertical space of phone screens, I moved away from the layout of this initial mobile concept.  Rather than reorienting the kanji box horizontally, I kept it vertical.  Consequently, it made more sense to keep the nav bar horizontal, as, in this revised design, the kanji box would not move aside for a vertical nav menu on smaller screens.
 
 # Website Surface
 ## Colours
-The colours used throughout the site for its main styling are shown below. They are complimented by more colorful background image to give the website consistent, clean look. These colors and background were intentionally picked to keep the modern, simple design. They compliment each other well and keep great page contrast, which makes it more user-friendly and readable. 
+![Initial mock-up of the mobile site.](/assets/image-readme/aikido-palette.jpg)
+- A colour scheme of creams and browns was chosen for the website.  These tones evoke a traditional look of parchment, while maintaining a level of contrast suitable for a modern, fresh website.  White is not used in the styling but appears as a pop of contrast in the hero image of the index.  
 
 ## Typography
 Two fonts are used throughout the website.  These fonts are unified by their clear legibility, with differences in the serif font that draw attention to headers and other important elements.

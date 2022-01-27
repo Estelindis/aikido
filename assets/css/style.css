@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: #3e1515;
+    color: #2b1313;
 }
 
 body {
@@ -185,7 +185,7 @@ footer {
 
 .accordion {
     background-color: #ecd8d1;
-    color: #3e1515;
+    color: #2b1313;
     cursor: pointer;
     padding: 18px;
     width: 100%;
