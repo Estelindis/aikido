@@ -226,7 +226,7 @@ video {
     height: auto;
 }
 
-/* Gallery */
+/* Gallery, drawing on the style of the gallery in the Code Institute Love Running project */
 
 #pics {
     clear: both;
@@ -343,7 +343,7 @@ label {
 
 /* Responsiveness */
 
-/* Default flexbox styling, for large screens */
+/* Default flexbox styling, for large screens, following the tutorial from the YouTube user CSS Coder: https://www.youtube.com/watch?v=S0a7PEOi0do */
 
 @media all and (min-width: 1200px) {
     .main {

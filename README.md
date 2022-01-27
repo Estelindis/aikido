@@ -209,6 +209,7 @@ To make a local clone of the project follow these steps:
 ## Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Content
 - Code inspiration for the header, footer, gallery layout, join form, and index kanji box came from the CI Love Running project.
