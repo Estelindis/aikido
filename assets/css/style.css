@@ -226,7 +226,7 @@ video {
     height: auto;
 }
 
-#aikido-video {
+#sports-centre-map {
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -416,7 +416,7 @@ label {
     }
 }
 
-/* Additional styling for smallest screens, to fit more content with less wasted space */
+/* Additional styling for smallest screens, to fit more content with less scrolling needed */
 
 @media all and (max-width: 400px) {
     #nav ul {
@@ -459,6 +459,9 @@ label {
         height: 750px;
     }
 
+    #sports-centre-map {
+        height: 400px;
+    }
 }
 
 /* Gallery displays as one column on smaller screens */

@@ -4,8 +4,6 @@
 ### [Click here to view the site.](https://estelindis.github.io/aikido/)
 ### [Click here to view the repository.](https://github.com/Estelindis/aikido)
 
-![Index look on multiple devices.](/assets/image-readme/responsive-index.jpg)
-
 # Table of Contents:
 1. [About the project](#about-the-project)
     1. [User Goals](#user-goals)
@@ -13,11 +11,11 @@
 2. [Website structure](#website-structure)
     1. [Navigation](#navigation)
     2. [Header](#header)
-    3. [Index Main Article](#index-main-article)
+    3. [Index Main Article and Hero Image](#index-main-article-and-hero-image)
 	4. [Training Times Sidebar](#training-times-sidebar)
 	5. [News Sidebar](#news-sidebar)
     6. [Footer](#footer)
-    7. [FAQ](#faq)
+    7. [FAQ Main Article and Image](#faq-main-article-and-image)
     8. [Gallery](#gallery)
     9. [Join](#join)
 3. [Wireframes](#wireframes)
@@ -57,13 +55,16 @@ The MU Aikido Club website is designed to inform users about aikido broadly and 
 ## Owner Goals
 - Explain what aikido is.
 - Emphasize that MU Aikido Club is a beginners' club with no experience required.
-- Communicate when the club trains and how to get to the training venue.
 - Display club experiences (training, courses, and social events). 
+- Communicate when the club trains, how to get to the training venue, and who is eligible to join.
 - Provide a way for interested users to join immediately.
-- Convey aspects of the history and culture of aikido without overwhelming the user.
+- For users who are not eligible to join the MUAC, but still wish to learn aikido, provide information about other aikido opportunities.
+- Convey aspects of the culture of aikido and its wider international framework without overwhelming the user.
 
 # Website structure
 The website is divided into four pages: index, FAQ, gallery, and the join page.
+
+![Index look on multiple devices.](/assets/image-readme/responsive-index.jpg)
 
 ## Navigation 
 - The club logo navigates back to the index. 
@@ -76,7 +77,7 @@ The website is divided into four pages: index, FAQ, gallery, and the join page.
 - The club logo is clear and simple: text without any icons or images.   
 - Excluding the Gallery, each page has a single main image directly below the logo.  Each image is chosen to complement the logo rather than distracting from it.
 
-## Index Main Article
+## Index Main Article and Hero Image
 - The index main article is divided with the following headings: "Learn Aikido at Maynooth"; "Why Aikido?"; and "How Do I Join?"  These were chosen as the most important pieces of information to communicate to a new user of the site.
 - Under "Learn Aikido at Maynooth" .
 - Under "Why Aikido?" .
@@ -105,15 +106,20 @@ The website is divided into four pages: index, FAQ, gallery, and the join page.
 - The accordion style of the FAQ follows the method laid out at [W3 Schools](https://www.w3schools.com/howto/howto_js_accordion.asp).  While the style is adapted to suit the look of the MU Aikido Club site, the JavaScript for the accordion script comes directly from W3 Schools.
 - The accordion hides FAQ answers by default.  This functions to conceal the video from the user on loading the page.  By clicking on the video FAQ entry, the user signals an interest in watching a video of aikido.  Consequently, the video autoplays on being revealed by pressing/clicking the video FAQ entry.  To preserve a good user experience and avoid unpleasant surprises, this video is automatically muted.
 - The aikido video is provided by Guillaume Erard, shared on [Wikimedia](https://commons.wikimedia.org/w/index.php?title=File%3AUeshiba_Mitsuteru_(Nippon_Budokan%2C_2017).webm) via Creative Commons and converted to mp4 to improve browser compatibility.  This specific video is chosen both as an excellent example of aikido and because it takes place at the headquarters of the worldwide aikido organization of which the MU Aikido Club is a small part. 
-- Code for the Google Maps iFrame was initially generated at [Maps.ie](https://www.maps.ie/create-google-map/).  Following the advice of the W3 Validator, the styling element of the iFrame was subsequently moved to the css file.
+- Code for the Google Maps iFrame was initially generated at [Maps.ie](https://www.maps.ie/create-google-map/).  As this generated bugs on the W3 Validator, the styling of the iFrame was then moved to the css file.
 
 ## Gallery
 ![The Gallery on multiple devices.](/assets/image-readme/responsive-gallery.jpg)
-- Text
+- The Gallery page follows a simple masonry style inspired by the gallery of the Code Institute Love Running project.
+- Excluding the heading elements used in the logo in the shared header, the gallery does not use headings.  This is an aesthetic choice, to present a clean user experience that favours images over text, allowing the pictures to speak for themselves.  Alt text is provided for all gallery images, to ensure accessibility.  
 
 ## Join
 ![The Join page on multiple devices.](/assets/image-readme/responsive-join.jpg)
-- Text
+- The Join page is inspired by the sign-up page of the Code Institute Love Running project.  CI students write this code themselves rather than being shown it directly.  I have included my version of this code as a framework for the MU Aikido Club Join page, while changing elements of the style and making further additions.
+- A tooltip is implemented to show which fields of the form are required.  
+- The student number of prospective members is useful information for club records, but not all those wishing to join may have a student number.  As such, the student number field is not required.
+- Similarly, not all prospective members may wish to leave questions or comments, so this field is also not required.
+- The tooltip styling follows a tutorial at [W3 Schools](https://www.w3schools.com/css/css_tooltip.asp).
 
 # Wireframes
 The index page was prototyped in GIMP using the chosen colours, fonts, and hero image.  These visual elements were decided as the first step of the project.  Once they were chosen, determining a layout became easier.  Using multiple layers with transparency, elements were moved around in GIMP and changed with ease.
@@ -123,12 +129,12 @@ The index page was prototyped in GIMP using the chosen colours, fonts, and hero 
 
 ## Mobile
 ![Initial mock-up of the mobile site.](/assets/image-readme/wireframe-mobile.jpg)
-- Taking into account the primarily vertical space of phone screens, I moved away from the layout of this initial mobile concept.  Rather than reorienting the kanji box horizontally, I kept it vertical.  Consequently, it made more sense to keep the nav bar horizontal, as, in this revised design, the kanji box would not move aside for a vertical nav menu on smaller screens.
+- Taking into account the typically vertical orientation of phone screens during web browsing, I moved away from the layout of this initial mobile concept.  Rather than reorienting the kanji box horizontally, I kept it vertical.  Consequently, it made more sense to keep the nav bar horizontal.  In this revised design, the kanji box would not be moving aside for a vertical nav menu on smaller screens.
 
 # Website Surface
 ## Colours
 ![Initial mock-up of the mobile site.](/assets/image-readme/aikido-palette.jpg)
-- A colour scheme of creams and browns was chosen for the website.  These tones evoke a traditional look of parchment and ink, while maintaining a level of contrast suitable for a modern, fresh website.  White is not used in the styling but appears as a pop of contrast in the hero image of the index.  
+- A colour scheme of creams and browns was chosen for the website.  These tones evoke a traditional look of parchment and ink, while maintaining a level of contrast suitable for a fresh, modern website.  White is not used in the styling but appears as a pop of contrast in the hero image of the index.  
 
 ## Typography
 Two fonts are used throughout the website.  These fonts are unified by their clear legibility, with differences in the serif font that draw attention to headers and other important elements.
