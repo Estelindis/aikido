@@ -227,7 +227,7 @@ To make a local clone of the project follow these steps:
 8. CD into 'aikido'.
 9. Enter 'git clone SSH_ADDRESS'
 10. GitBash will clone the repository into this directory.
-11. enter 'code .' and this will open VS CODE and happy coding.
+11. Enter 'code .' and this will open VS CODE and happy coding.
 
 # Used technologies and credits
 ## Languages
