@@ -68,17 +68,17 @@ The website is divided into four pages: index, FAQ, gallery, and the join page.
 
 ## Header
 - The club logo is clear and simple: text without any icons or images.   
-- Excluding the Gallery, each page header has a single main image directly below the logo.  Each image is chosen to complement the logo rather than distracting from it.
+- Excluding the gallery, each page header has a single main image directly below the logo.  Each image is chosen to complement the logo rather than distracting from it.
 
 ## Navigation 
 - The club logo navigates back to the index. 
 - The nav bar allows the user to navigate between all pages of the website.
 - The nav bar uses the same font as the logo and headings: [Yuji Syuku](https://fonts.google.com/specimen/Yuji+Syuku).  This font, based on calligraphy by Yuji Kataoka, is also used for the aikido kanji displayed on the index hero image.  This provides a unified look.  At the same time, the choice of a serif font for logo, nav bar, and headings clearly distinguishes them from the rest of the content (which uses a sans-serif font).   
 - The font colour used in navigation contrasts with the background.  On the FAQ page, when a small screen would cause the nav bar to float above a different background colour, the font colour is reversed to maintain contrast.
-- Additionally, the index's main article links to the Join page under the heading "How Do I Join?" and the FAQ main article links to the Gallery page under "What kind of events can I expect?"
+- Additionally, the index's main article links to the join page under the heading "How Do I Join?" and the FAQ main article links to the gallery page under "What kind of events can I expect?"
 
 ## Index Main Article and Hero Image
-- The index main article is divided with the following headings: "Learn Aikido at Maynooth"; "Why Aikido?"; and "How Do I Join?"  These were chosen as the most important pieces of information to communicate to a new user of the site.
+- The index main article is divided with the following headings: "Learn Aikido at Maynooth"; "Why Aikido?"; and "How Do I Join?"  These were chosen as the most important information to communicate to a new user of the site.
 - Under "Learn Aikido at Maynooth" the user is invited to engage with the basic premise of the site.
 - Under "Why Aikido?" the user is invited to engage with aikido broadly.
 - Under "How Do I Join?" the user is invited to engage with MU Aikido Club specifically.
@@ -87,41 +87,41 @@ The website is divided into four pages: index, FAQ, gallery, and the join page.
 
 ## Training Times Sidebar
 - This sidebar contains the days and times for MU Aikido Club training sessions, as well as the location of these sessions.  Further information about how to reach the location is found in the FAQ, but this basic information is placed prominently due to its importance.  It will be relevant both to new users and returning users who may have attended some training sessions previously but forgotten the place and/or time.  
-- The training times sidebar is present on the Index page and the FAQ page, due to the importance of the information therein.  Both the introductory landing page and the page with more detailed information should contain the details that the site owner wishes above all to communicate to every user.
+- The training times sidebar is present on the index and the FAQ page, due to the importance of the information therein.  Both the introductory landing page and the page with more detailed information should contain the details that the site owner wishes to communicate to every user.
 
 ## News Sidebar
 - This sidebar contains updates, such as COVID-19 protocols and upcoming courses.  It is intended primarily for returning users, but may be of interest to new users. 
-- As with the training times sidebar, the news sidebar is present both on the Index page and the FAQ page, due to its importance.
+- As with the training times sidebar, the news sidebar is present both on the index and the FAQ page, due to its importance.
 
 ## Footer
 - The footer section on each page contains a quote from aikido founder Morihei Ueshiba.  These quotes communicate essential qualities of the spirit of aikido.  They are chosen to encourage prospective members that everyone can learn something from aikido and that perfection is neither expected nor demanded.
 - Social media icons in the footer link to Facebook, Twitter, and YouTube.  Specific rather than general placeholder links were chosen because the MU Aikido Club is a real, living organization that is part of a wider infrastructure of organizations.  
 - At the [MU Aikido Club Facebook page](https://www.facebook.com/MaynoothAikido), users can see more photos and find updates on additional practice sessions.  
 - At the [MU Twitter page](https://twitter.com/MaynoothUni), users can see if the sports facilities used by the MU Aikido Club have been closed due to any emergency.  
-- At the [International Aikido Federation YouTube page](https://www.youtube.com/c/Aikido-internationalOrg), users can see examples of aikido practice.  This page is affiliated with the [Aikikai Foundation](http://www.aikikai.or.jp/eng/).  By linking to this YouTube page, the site communicates to those aware of multiple aikido organizations that MU Aikido Club practises Aikikai (the original school of aikido), without going into details that might confuse or alienate a new user.  
+- At the [International Aikido Federation YouTube page](https://www.youtube.com/c/Aikido-internationalOrg), users can see examples of aikido practice.  This page is affiliated with the [Aikikai Foundation](http://www.aikikai.or.jp/eng/).  By linking to this YouTube page, the site communicates to those aware of multiple aikido organizations that MU Aikido Club practises aikikai (the original school of aikido), without going into details that might confuse or alienate a new user.  
 - The colour scheme of the footer is inverted compared with the rest of the website, to provide a pleasing element of contrast.
 
 ## FAQ Main Article and Image 
 ![The FAQ on multiple devices.](/assets/image-readme/responsive-faq.jpg)
-- The FAQ answers common questions that users may have about the MU Aikido Club.  It is intended mainly for new users, but may also be of help to returning users.
+- The FAQ answers common questions that users may have about the MU Aikido Club.  It is intended mainly for new users, but may also be helpful to returning users.
 - The main image is licensed from Shutterstock.  [Natamura's vector image](https://www.shutterstock.com/image-vector/aikido-dojo-asian-style-flat-vector-1196646862), lightly edited, evokes a typical Japanese dojo as well as the main aikido dojo in Dublin on Macken Street.  It is chosen to imply that the site user can learn from the FAQ, like a practitioner of aikido learns at the dojo.  
 - The first questions address the urgent concerns of new users, especially worries that may lead users to quickly disengage from the site.  At first, users may be intimidated by the thought of trying a martial art, or wearing specific clothing that may seem strange.  As the answers to these questions hopefully assuage users' concerns, questions turn to more tangible issues, like who qualifies to join the club and how to get to the training venue.
 - The accordion style of the FAQ follows the method laid out at [W3 Schools](https://www.w3schools.com/howto/howto_js_accordion.asp).  While the style is adapted to suit the look of the MU Aikido Club site, the JavaScript for the accordion script comes directly from W3 Schools.
-- The accordion hides FAQ answers by default.  This conceals the video from the user on loading the page.  By clicking on the video FAQ entry, the user signals an interest in watching a video of aikido.  Consequently, the video autoplays on being revealed by clicking the video FAQ entry.  To preserve a good user experience and avoid unpleasant surprises, this video is automatically muted.
-- The aikido video is provided by Guillaume Erard, shared on [Wikimedia](https://commons.wikimedia.org/w/index.php?title=File%3AUeshiba_Mitsuteru_(Nippon_Budokan%2C_2017).webm) via Creative Commons and converted to mp4 to improve browser compatibility.  This specific video is chosen both as an excellent example of aikido and because it depicts a prominent figure in the worldwide aikido organization of which the MU Aikido Club is a small part. 
+- The accordion hides FAQ answers by default.  This conceals the video from the user on loading the page.  By clicking on the video FAQ entry, the user signals an interest in watching a video of aikido.  Consequently, the video autoplays on being revealed by clicking the video FAQ entry.  To preserve a good user experience and avoid unpleasant surprises, this video is automatically muted.  Controls are implemented, allowing the user to pause and play the video at will.
+- The aikido video is provided by Guillaume Erard, shared on [Wikimedia](https://commons.wikimedia.org/w/index.php?title=File%3AUeshiba_Mitsuteru_(Nippon_Budokan%2C_2017).webm) via Creative Commons. As well as the original source in webm format, the video has been converted to mp4 and provided as a second source, to improve browser compatibility.  This specific video is chosen both as an excellent example of aikido and because it depicts a prominent figure in the worldwide aikido organization of which the MU Aikido Club is a small part. 
 - The Google Maps iFrame and its FAQ entry were added to help users who have never or rarely visited Maynooth University to find the Sports Centre. The imagined user of this feature may not have begun studying at Maynooth University, or perhaps is in the first week at MU, but is already taking the initiative to investigate clubs and societies.  For such an engaged user, it is strongly desired to remove obstacles to further engagement, such as confusion about the location of the Sports Centre.
-- Code for the Google Maps iFrame was initially generated at [Maps.ie](https://www.maps.ie/create-google-map/).  As this generated bugs on the W3C validator, the styling of the iFrame was then moved to the css file.
+- Code for the Google Maps iFrame was initially generated at [Maps.ie](https://www.maps.ie/create-google-map/).  As the initial code led to bugs reported by the W3C validator, the styling of the iFrame was then moved to the css file.
 - The image of the Sports Centre floor map and its FAQ entry were made to help new students and staff at Maynooth University who are unfamiliar with the internal layout of facilities like the Sports Centre.
 
 ## Gallery
 ![The Gallery on multiple devices.](/assets/image-readme/responsive-gallery.jpg)
-- The Gallery page follows a simple masonry style inspired by the gallery of the Code Institute Love Running project.
+- The gallery page follows a simple masonry style inspired by the gallery of the Code Institute Love Running project.
 - Excluding the heading elements used in the logo in the shared header, the gallery does not use headings.  This is an aesthetic choice, to present a clean user experience that favours images over text, allowing the pictures to speak for themselves.  Alt text is provided for all gallery images, to ensure accessibility. 
 - The images chosen are a mix of ordinary club training, sitting formally (particularly after special training events), and social events.  Sprinkled into the mix is one picture of the club sitting very informally, communicating a shared sense of joy.  These images are intended to encourage site users to engage further with the club website, possibly leading to joining the club. 
 
 ## Join
 ![The Join page on multiple devices.](/assets/image-readme/responsive-join.jpg)
-- The Join page is inspired by the sign-up page of the Code Institute Love Running project.  CI students write this code themselves rather than being shown it directly.  I have included my version of this code as a framework for the MU Aikido Club Join page, while changing elements of the style and making further additions.
+- The join page is inspired by the sign-up page of the Code Institute Love Running project.  CI students write this code themselves rather than being shown it directly.  I have included my version of this code as a framework for the MU Aikido Club join page, while changing elements of the style and making further additions.
 - The main image, a [photo of a white suit and belt by maRRitch](https://www.shutterstock.com/image-photo/white-judogi-folded-tied-belt-1688098678) (licensed from Shutterstock), was chosen to encourage prospective members to put on a suit and join the club (since many members choose to wear the suits, even if they are not required).  The white belt communicates that all club members train together with a "beginners' spirit," including those with the right to wear a black belt.
 - A tooltip is implemented to show which fields of the form are required.  The tooltip styling draws from a tutorial at [W3 Schools](https://www.w3schools.com/css/css_tooltip.asp).
 - The student number of prospective student members is useful information for the club.  However, not all those wishing to join will have a student number when initially engaging with the site (and membership is also open to staff and alumni).  As such, the student number field is not required.
@@ -144,16 +144,16 @@ The index page was prototyped in GIMP using the chosen colours, fonts, and hero 
 - A colour scheme of creams and browns was chosen for the website.  These tones evoke a traditional look of parchment and ink, while maintaining a level of contrast suitable for a fresh, modern website.  White is not used in the styling but appears as a pop of contrast in the hero image of the index.  
 
 ## Typography
-Two fonts are used throughout the website.  These fonts are unified by their clear legibility, with differences in the serif font that draw attention to headers and other important elements.
-- [Yuji Syuku](https://fonts.google.com/specimen/Yuji+Syuku) - logo, navigation, headers, and kanji.  Of the Google fonts that include kanji, this one, based on digitized calligraphy, most closely resembles the brush style seen on Aikido scrolls in dojos around the world.  It is somewhat artistic but still clear to read.  A subtle inked look carries over to the logo, nav bar, and headings, unifying them with the kanji reading "aikido" on the index page.
+Two fonts are used throughout the website.  These fonts are unified by their clear legibility, with differences in the serif font that draw attention to headings and other important elements.
+- [Yuji Syuku](https://fonts.google.com/specimen/Yuji+Syuku) - this serif font is used in the logo, navigation, headers, and kanji.  Of the Google fonts that include kanji, this one, based on digitized calligraphy, most closely resembles the brush style seen on Aikido scrolls in dojos around the world.  It is somewhat artistic but still clear to read.  A subtle inked look carries over to the logo, nav bar, and headings, unifying them with the kanji reading "aikido" on the index page.
 - [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed) - an elegant, easy-to-read sans-serif font.
 
 ## Icons and images
 - The source for the icons used in the footer is [Font Awesome](https://fontawesome.com/).
 - The source for the hero image in the index page is [Pexels](https://www.pexels.com/photo/red-and-gray-pagoda-temple-3408354/).  Using GIMP, I edited the photo to replace the sky with a solid fill of the main background colour of the website, for a cleaner look that blends into the logo and nav bar.  [Editing Pexels photos is permitted by their license.](https://www.pexels.com/license/)   
-- The source for the main FAQ image is [Shutterstock](https://www.shutterstock.com/image-vector/aikido-dojo-asian-style-flat-vector-1196646862).  I edited the image to replace the tatami with the main background colour of the website, for a clearer look.  Additionally, I somewhat extended the picture to the sides for very wide screens.  I licensed this image via free trial, which allows usage rights to be retained after the trial ends, even if the trial is cancelled immediately.  [Editing licensed content is permitted by Shutterstock.](https://support.shutterstock.com/s/article/Can-I-edit-the-content-I-license?language=en_US)
-- The main Join image was also licensed from [Shutterstock](https://www.shutterstock.com/image-photo/white-judogi-folded-tied-belt-1688098678).  Only minor editing occurred (cropping the image from the original).
-- The image of the Sports Centre floor map was created from scratch by me in GIMP, using complementary colours.  
+- The source for the main FAQ image is [Shutterstock](https://www.shutterstock.com/image-vector/aikido-dojo-asian-style-flat-vector-1196646862).  I edited the image to replace the tatami with the main background colour of the website, for a more unified look.  Additionally, I somewhat extended the picture to the sides for very wide screens.  I licensed this image via free trial, which allows usage rights to be retained after the trial ends, even if the trial is cancelled immediately.  [Editing licensed content is permitted by Shutterstock.](https://support.shutterstock.com/s/article/Can-I-edit-the-content-I-license?language=en_US)
+- The main join image was also licensed from [Shutterstock](https://www.shutterstock.com/image-photo/white-judogi-folded-tied-belt-1688098678).  Only minor editing occurred (cropping the image from the original).
+- The image of the Sports Centre floor map was created from scratch by me in GIMP, using a colour scheme that complements the website palette.  
 
 # Testing
 ## [HTML Validator](https://validator.w3.org/)
@@ -163,7 +163,7 @@ No errors were returned when passing through the official W3C validator.
 No errors were returned when passing through the official Jigsaw validator. 
 
 ## [Lighthouse Accessibility (DevTools)](https://developers.google.com/web/tools/lighthouse/)
-Running all site pages through Lighthouse in DevTools, checking both mobile and desktop versions, resulted in the following reports:
+Running all site pages through Lighthouse in Chrome DevTools, checking both mobile and desktop versions, resulted in the following reports:
 ![Index Lighthouse report.](/assets/image-readme/lh-index.jpg)
 ![FAQ Lighthouse report.](/assets/image-readme/lh-faq.jpg)
 ![Gallery Lighthouse report.](/assets/image-readme/lh-gallery.jpg)
@@ -175,7 +175,7 @@ Running all site pages through Lighthouse in DevTools, checking both mobile and 
 
 # Bugs and fixes
 ## Solved bugs
-- Initially, the video in the FAQ page was only provided in webm format.  However, a Safari user on an iPhone reported that this embedded video seemed broken, and provided a video to confirm this.  When asked if a direct link to the video worked in Safari, the user commented: "Safari for iOS just tried to download the file. May be different for Safari browser on PC."  I converted the webm to mp4 and uploaded a copy to the repository, providing an additional video source in a second format to address this compatibility issue.
+- Initially, the video in the FAQ page was only provided in webm format.  However, a Safari user on an iPhone reported that this embedded video seemed broken, and provided a video to confirm this.  When asked if a direct link to the aikido video worked in Safari, the user commented: "Safari for iOS just tried to download the file. May be different for Safari browser on PC."  I converted the webm to mp4 and uploaded a copy to the repository, providing an additional video source in a second format to address this compatibility issue.
 
 ![Partial screengrab of iOS Safari video bug report.](/assets/image-readme/broken-video.jpg)  
 - A Chrome user on an Android phone reported: "I can scroll a little to the left and then I'll have a white strip on the right side."  This issue was addressed by creating additional styling.  By reducing the nav bar's width and font size on screens of maximum 400 pixels, horizontal scrolling was eliminated for those screen sizes.
@@ -189,13 +189,13 @@ Running all site pages through Lighthouse in DevTools, checking both mobile and 
 
 The steps to deploy via GitHub pages:
 
-1. Log into GitHub account.
+1. Log into your GitHub account.
 2. Navigate to the [Repository](https://github.com/Estelindis/aikido).
-3. Click the 'Settings' option at the top of the repository.
-4. Click the 'Pages' option on the left-hand menu, located near the bottom.
-5. Within the 'Source' tab Select the drop-down titled 'None'.
-6. Select the branch named 'main' (it is sometimes named 'Master').
-7. Click 'Save'.
+3. Click the "Settings" option at the top of the repository.
+4. Click the "Pages" option on the left-hand menu, located near the bottom.
+5. Within the "Source" tab Select the drop-down titled "None".
+6. Select the branch named "main" (it is sometimes named "Master").
+7. Click "Save".
 8. You will be prompted with a URL to your deployed site.
 9. The site is now deployed.
 
@@ -207,7 +207,7 @@ By forking the GitHub repository, we make a copy of the original repository on o
 
 1. Log into your GitHub account.
 2. Navigate to the [Repository](https://github.com/Estelindis/aikido) that you want to fork.
-3. In the upper right of the repository, click the 'Fork' button.
+3. In the upper right of the repository, click the "Fork" button.
 4. A copy of the repository will now be available within your repositories.
 
 This copy of the code can be edited without affecting the original code.
@@ -218,15 +218,15 @@ To make a local clone of the project, follow these steps:
 
 1. Log into your GitHub account.
 2. Navigate to the [Repository](https://github.com/Estelindis/aikido).
-3. In the upper section of the repository, click the dropdown named 'Code'.
+3. In the upper section of the repository, click the dropdown named "Code".
 4. Copy the SHH address.
 5. Open GitBash.
 6. Navigate to the correct directory.
-7. Create a new directory named 'aikido'.
-8. CD into 'aikido'.
-9. Enter 'git clone SSH_ADDRESS'.
+7. Create a new directory named "aikido".
+8. CD into "aikido".
+9. Enter "git clone SSH_ADDRESS".
 10. GitBash will clone the repository into this directory.
-11. Enter 'code .' which will open VS CODE.
+11. Enter "code ." which will open VS CODE.
 
 # Used technologies and credits
 ## Languages
@@ -235,17 +235,17 @@ To make a local clone of the project, follow these steps:
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Content
-- The code for the footer, gallery layout, join form, nav bar, and index header are influenced by the CI Love Running project.  The clean and appealing layout of Love Running provides helpful direction in giving a fresh and modern feel to a website inspired by aikido traditions.
-- The flexbox layout of the Index and FAQ pages follows a tutorial from [CSS Coder on YouTube](https://www.youtube.com/watch?v=S0a7PEOi0do).
+- The code for the footer, gallery layout, join form, nav bar, and index header are influenced by the Code Institute Love Running project.  The clean and appealing layout of Love Running inspired me to give a fresh and modern feel to this website inspired by aikido traditions.
+- The flexbox layout of the index and FAQ pages follows a tutorial from [CSS Coder on YouTube](https://www.youtube.com/watch?v=S0a7PEOi0do).
 - The accordion style of the FAQ follows a tutorial from [W3 Schools](https://www.w3schools.com/howto/howto_js_accordion.asp).
-- The tooltip styling of the Join page follows a tutorial at [W3 Schools](https://www.w3schools.com/css/css_tooltip.asp).
+- The tooltip styling of the join page follows a tutorial from [W3 Schools](https://www.w3schools.com/css/css_tooltip.asp).
 - The [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) browser extension was used to quickly and clearly identify which styling elements were causing overflow, allowing me to amend the styling.
 
 ## Media 
 - Background images are taken from [Pexels](https://www.pexels.com/) and [Shutterstock](https://www.shutterstock.com/).
 - Gallery images are provided by the MU Aikido Club, and can also be seen on the [MUAC Facebook page](https://www.facebook.com/MaynoothAikido).
 - [Bulk Resize Images](https://bulkresizephotos.com/en) was used to resize all gallery photos to a width of 1000 pixels, as several were originally much wider than this, leading to an initially lower Lighthouse report score.  
-- Images compression was done via [Tiny PNG](https://tinypng.com/).
+- Image compression was done via [Tiny PNG](https://tinypng.com/).
 - Image editing, including site prototyping, was performed using [GIMP](https://www.gimp.org/) 2.10.24.
 - The icons used in the footer come from [FontAwesome](https://fontawesome.com/).
 - Fonts used throughout the website are imported from [Google Fonts](https://fonts.google.com/).
@@ -256,4 +256,4 @@ To make a local clone of the project, follow these steps:
 - [GitHub](https://github.com/) provided a repository for the website.
 
 ## Credits
-- [Code Institute Slack](https://slack.com/) Fellow members of the CI on Slack provided an invaluable database of information and community of support.  I am particularly grateful to the msletb-nov-2021 cohort, our facilitator Kasia, and my mentor Darío.
+- [Code Institute Slack](https://slack.com/) Fellow members of the Code Institute on Slack provided an invaluable database of information and community of support.  I am particularly grateful to the msletb-nov-2021 cohort, our facilitator Kasia, and my mentor Darío.
